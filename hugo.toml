@@ -1,0 +1,104 @@
+languageCode = "en"
+theme = "jughead"
+title = "Yunze Guan"
+copyright = "Yunze Guan"
+enableGitInfo = true
+
+# Code highlighting
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# Site parameters
+[params]
+# Add a logo to your site by placing an image in the assets directory
+# and setting the path here. Preferably a square png image.
+logo = "logo.png"
+
+# Theme: "ink" (newspaper/OLED) or "earth" (rust/slate)
+theme = "ink"
+# Theme mode: "auto" (follows system), "light", or "dark"
+themeMode = "auto"
+
+# Enable a service worker for offline access.
+#
+# Set to true to cache pages as they are visited.
+# serviceWorker = true
+# Set to "precache" to cache all pages on first load.
+# serviceWorker = "precache"
+
+subtitle = "Portfolio and blog theme for Hugo."
+description = "Demo site for Jughead, a portfolio and blog theme for Hugo."
+
+mainSections = ["blog", "links"]
+
+# [params.jsonResume]
+# Add your JSON Resume Registry slug. This is the part of the URL after https://registry.jsonresume.org/.
+# Or create a resume.json file in the data directory.
+# slug = "<your-github-username>"
+# qr = true # Add this to display a QR code image pointing to your resume.
+#
+# # Brief mode shows only position/degree, company/institution, and dates
+# briefWork = false
+# briefEducation = false
+#
+# # Toggle resume sections (work, education, projects are on by default)
+# [params.jsonResume.sections]
+# work = true
+# education = true
+# projects = true
+# volunteer = false
+# awards = false
+# certificates = false
+# publications = false
+# skills = false
+# languages = false
+# interests = false
+# references = false
+
+# Display a link to the commit that built this site in your footer.
+# Requires enableGitInfo = true, and for your website to be public on GitHub.
+siteRepo = "Sneaky-Breeky/sneaky-breeky.github.io"
+
+# Configure the Giscus comment system.
+[params.giscus]
+repo = "ananthb/jughead"
+repoId = "R_kgDOKs2pMQ"
+category = "Comments"
+categoryId = 'DIC_kwDOKs2pMc4Cl_sd'
+mapping = "og:title"
+strict = "1"
+loading = "lazy"
+
+# Follow setup instructions at https://utteranc.es.
+# Name of the GitHub repository that will store comments
+# in `owner/name` format.
+utterancesRepo = "ananthb/jughead"
+
+# Social Tags
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com"
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com"
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com"
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com"
+
+[[menu.main]]
+name = "Resume"
+url = "/resume"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 2

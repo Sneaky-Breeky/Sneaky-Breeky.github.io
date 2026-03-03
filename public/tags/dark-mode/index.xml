@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dark-Mode on Yunze Guan</title>
+    <link>//localhost:1313/tags/dark-mode/</link>
+    <description>Recent content in Dark-Mode on Yunze Guan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Yunze Guan</copyright>
+    <lastBuildDate>Sun, 18 Mar 2018 12:13:38 +0530</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/dark-mode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to test dark mode?</title>
+      <link>//localhost:1313/blog/post-7/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate>
+      <guid>//localhost:1313/blog/post-7/</guid>
+      <description>Here is how you can setup dark mode for Ink and test on various OS like iOS, Android, macOS and Windows 10.</description>
+    </item>
+  </channel>
+</rss>

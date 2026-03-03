@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Yunze Guan</title>
+    <link>//localhost:1313/categories/</link>
+    <description>Recent content in Categories on Yunze Guan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Yunze Guan</copyright>
+    <lastBuildDate>Wed, 05 Feb 2025 03:47:55 +0530</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Featured</title>
+      <link>//localhost:1313/categories/featured/</link>
+      <pubDate>Wed, 05 Feb 2025 03:47:55 +0530</pubDate>
+      <guid>//localhost:1313/categories/featured/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Announcements</title>
+      <link>//localhost:1313/categories/announcements/</link>
+      <pubDate>Wed, 01 Jan 2025 02:01:58 +0530</pubDate>
+      <guid>//localhost:1313/categories/announcements/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog-a-Day</title>
+      <link>//localhost:1313/categories/blog-a-day/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate>
+      <guid>//localhost:1313/categories/blog-a-day/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Misc</title>
+      <link>//localhost:1313/categories/misc/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:30 +0530</pubDate>
+      <guid>//localhost:1313/categories/misc/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
